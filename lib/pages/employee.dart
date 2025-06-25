@@ -113,7 +113,7 @@ class _EmployeeState extends State<Employee> {
               onPressed: () async {
                 String Id = randomAlphaNumeric(10);
                 Map<String, dynamic> employeeInfoMap = {
-                  "Name:": nameController.text,
+                  "Name": nameController.text,
                   "Age": ageController.text,
                   "Id": Id,
                   "Location": locationController.text,
@@ -126,8 +126,8 @@ class _EmployeeState extends State<Employee> {
                         toastLength: Toast.LENGTH_SHORT,
                         gravity: ToastGravity.CENTER,
                         timeInSecForIosWeb: 1,
-                        backgroundColor: Colors.red,
-                        textColor: Colors.white,
+                        backgroundColor: Colors.lightGreen,
+                        textColor: Colors.green[900],
                         fontSize: 16.0,
                       );
                     });
