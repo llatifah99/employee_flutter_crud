@@ -98,6 +98,14 @@ class _EmployeeState extends State<Employee> {
                 decoration: InputDecoration(border: InputBorder.none),
               ),
             ),
+            SizedBox(height: 30),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text(
+                "Add",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+            ),
           ],
         ),
       ),
